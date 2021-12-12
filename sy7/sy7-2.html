@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sy7-2</title>
+</head>
+
+<body>
+<script>
+	var light = document.getElementById("light_img");
+	function onclick1(){
+		var img=document.getElementById("light_img");
+		img.src="2.png";}
+	function onclick2(){
+		var img=document.getElementById("light_img");
+		img.src="1.png";}
+	
+</script>
+	<input type="button" name="open" value="开灯" onclick="onclick1()"/>
+	<img id="light_img" src="1.png"/>
+	<input type="button" name="open" value="关灯" onclick="onclick2()"/>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta charset="gb2312">
+<title>sy7-1</title>
+</head>
+
+<body>
+
+	<p>输入三个整数：</p>
+	<input type="text" id="one" name="input1"/><br/>
+	<input type="text" id="two" name="input2"/><br/>
+	<input type="text" id="three" name="input3"/><br/>
+	<input type="button" id="btn" name="click" value="计算！" onclick="count()"/>
+	<script type="text/javascript">
+
+	function count(){
+		
+		var input1 = parseInt(document.getElementById('one').value);
+		var input2 = parseInt(document.getElementById('two').value);
+		var input3 = parseInt(document.getElementById('three').value);
+		
+		alert((input1+input2+input3)/3);
+	}
+</script>
+</body>
+</html>
